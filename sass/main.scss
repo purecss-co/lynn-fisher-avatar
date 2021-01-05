@@ -509,6 +509,67 @@ body {
         left: -0.7vmin;
         transform: rotate(-10deg);
       }
+
+      &::after {
+        width: 0.2vmin;
+        height: 1.2vmin;
+        background: $black-color;
+        top: 1.8vmin;
+        left: 6.9vmin;
+        transform: rotate(25deg);
+      }
+    }
+
+    &-2 {
+      z-index: 4;
+      width: 4.4vmin;
+      height: 3.5vmin;
+      background: $black-color;
+      top: -36.5vmin;
+      left: -14.9vmin;
+      border-top-right-radius: 1vmin;
+      border-bottom-right-radius: 1.6vmin;
+      border-top-left-radius: 1vmin;
+      border-bottom-left-radius: 2.2vmin;
+
+      &::before {
+        width: 0.7vmin;
+        height: 0.7vmin;
+        background: $eye-white-color;
+        border-radius: 50%;
+        top: 1vmin;
+        left: 2.5vmin;
+      }
+    }
+
+    &-3 {
+      z-index: 4;
+      width: 5vmin;
+      height: 2vmin;
+      background: $skin-color;
+      border-bottom: 0.2vmin solid $black-color;
+      top: -40.7vmin;
+      left: -18.2vmin;
+      transform: rotate(-9deg);
+
+      &::before {
+        width: 3.3vmin;
+        height: 1vmin;
+        background: $skin-color;
+        border-bottom: 0.2vmin solid $black-color;
+        top: 1.1vmin;
+        left: 5vmin;
+        transform: rotate(10deg);
+      }
+
+      &::after {
+        width: 0.2vmin;
+        height: 0.8vmin;
+        background: $black-color;
+        top: 1.7vmin;
+        left: 7.9vmin;
+        transform: rotate(-20deg);
+      }
     }
   }
 
